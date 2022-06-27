@@ -34,16 +34,16 @@ public class Monomial {
     }
 
     // coefficient magnitude and power constructore
-    public Monomial(double coefficient, double coefficientPower) {
+    public Monomial(double coefficient, double power) {
         coefficientMagnitude = coefficient;
-        coefficientPower = coefficientPower;
+        coefficientPower = power;
         variableToVariablePowerMap = defaultVariableMap;
     }
 
     // coefficient magnitude, power, and variable map constructor
-    public Monomial(double coefficient, double coefficientPower, HashMap<Integer, Integer> variables) {
+    public Monomial(double coefficient, double power, HashMap<Integer, Integer> variables) {
         coefficientMagnitude = coefficient;
-        coefficientPower = coefficientPower;
+        coefficientPower = power;
         variableToVariablePowerMap = variables;
     }
 
